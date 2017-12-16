@@ -1,4 +1,6 @@
-require('babel-register');
+require('babel-register')({
+    "presets": ["env"]
+  });
 import path from 'path'
 import express from 'express'
 
