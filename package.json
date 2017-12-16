@@ -2,25 +2,24 @@
   "name": "node-chat-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server/server.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node server/server.js",
-    "build-watch": "nodemon server/server --exec babel-node --presets env"
+    "start": "node server/index.js"
   },
   "engines": {
     "node": "9.3.0",
-    "npm": "5.5.1"
+    "npm": "5.6.0"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-register": "^6.26.0",
-    "express": "^4.16.2",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "express": "^4.16.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "nodemon": "^1.13.3"
   }
 }
