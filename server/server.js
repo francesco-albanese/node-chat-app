@@ -1,3 +1,4 @@
+require('babel-register');
 import path from 'path'
 import express from 'express'
 
