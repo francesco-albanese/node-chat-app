@@ -2,7 +2,7 @@
   "name": "node-chat-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
     "build-watch": "nodemon server/server --exec babel-node --presets env"
