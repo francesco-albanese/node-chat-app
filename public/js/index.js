@@ -8,7 +8,7 @@ socket.on('disconnect', () => {
     console.log('disconnect')
 })
 
-socket.on('newEmail', (email) => {
+socket.on('newEmail', email => {
     console.log('new email', email)
 })
 
