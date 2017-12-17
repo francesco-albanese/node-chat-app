@@ -5,6 +5,8 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
+    "test": "mocha server/test.js",
+    "test-watch": "nodemon --exec \"npm test\"",
     "build-watch": "nodemon server/index"
   },
   "engines": {
@@ -23,6 +25,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
     "nodemon": "^1.13.3"
   }
 }
